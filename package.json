@@ -1,0 +1,17 @@
+{
+  "name": "skeleton-express-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js | bunyan -l error",
+  },
+  "devDependencies": {
+    "express-chrome-logger": "~0.1.3"
+  },
+  "dependencies": {
+    "express": "3.0.0rc5",
+    "jade": "*",
+    "config": "~0.4.32",
+    "bunyan": "~0.22.0"
+  }
+}
