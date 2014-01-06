@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js | bunyan -l error",
+    "start": "node app.js | bunyan"
   },
   "devDependencies": {
     "express-chrome-logger": "~0.1.3"

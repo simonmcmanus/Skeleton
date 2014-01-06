@@ -36,10 +36,10 @@ app.get('/', routes.index);
 
 app.get('/logging', function(req, res) {
   console.log(CONFIG.domain);
-  res.console.log('Send to chrome logger', CONFIG); // Wil only work in development.
   log.info('hi');
   log.warn('Just a warning.');
   log.error('Something went terribly wrong. :(');
+  res.console.log('Send to chrome logger', CONFIG); // Wil only work in development.
   res.send('A response.');
 });
 
