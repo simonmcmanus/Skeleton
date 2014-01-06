@@ -1,0 +1,12 @@
+/**
+ * This is just an example file I created that validates against the style
+ *  used in the Express application.
+ */
+
+{
+  "node": true,
+  "laxcomma": true,
+  "strict": false,
+  "indent": 2,
+  "smarttabs": false
+}
