@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "3.0.0rc5",
     "jade": "*",
-    "config": "~0.4.32",
-    "bunyan": "~0.22.0"
+    "config": "~1.25.1",
+    "bunyan": "~1.8.5"
   }
 }
